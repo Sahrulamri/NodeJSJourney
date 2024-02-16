@@ -1,0 +1,20 @@
+{
+  "name": "pertemuan5npm",
+  "version": "1.0.0",
+  "description": "Belajar npm nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ghost",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
